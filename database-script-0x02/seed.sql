@@ -8,7 +8,7 @@ INSERT INTO "locations" (location_id, country, state, city, postal_code, lat, ln
 
 -- Insert users with different roles
 INSERT INTO users (user_id, first_name, last_name, email, password_hash, phone_number, role) VALUES
-    (uuid_generate_v4(), 'Daniel', 'Mensah', 'daniel.mensah@example.com', 'hashed_password_a', '+233201234567', 'host'),
+    (uuid_generate_v4(), 'Daniel', 'Mensah', 'ernest.wambua@example.com', 'hashed_password_a', '+233201234567', 'host'),
     (uuid_generate_v4(), 'Linda', 'Nkosi', 'linda.nkosi@example.com', 'hashed_password_b', '+27631234567', 'guest'),
     (uuid_generate_v4(), 'George', 'Aidoo', 'george.aidoo@example.com', 'hashed_password_c', '+233509876543', 'host'),
     (uuid_generate_v4(), 'Amara', 'Chukwu', 'amara.chukwu@example.com', 'hashed_password_d', '+2347012345678', 'guest'),
